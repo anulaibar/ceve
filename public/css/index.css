@@ -12,6 +12,10 @@ h1 {
     line-height: 1em;
 }
 
+h3 {
+color: CadetBlue;
+}
+
 .pure-menu.pure-menu-open.pure-menu-fixed {
     padding: 0.5em;
     z-index: 4;
