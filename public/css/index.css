@@ -1,0 +1,76 @@
+body {
+    line-height: 1.7em;
+    font-size: 16px;
+    color: DimGray;
+}
+
+h1 {
+    font-size: 250%;
+    padding: 1em 1.6em;
+    font-weight: 100;
+    border-radius: 5px;
+    line-height: 1em;
+}
+
+.pure-menu.pure-menu-open.pure-menu-fixed {
+    padding: 0.5em;
+    z-index: 4;
+    background: DarkSlateBlue;
+    border-bottom: none;
+}
+
+.pure-menu.pure-menu-horizontal, .pure-menu.pure-menu-horizontal .pure-menu-heading {
+    color: White;
+    font-size: 120%;
+}
+
+.splash {
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.splash-container {
+    color: White;
+    background: HotPink;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 88%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+}
+
+.content-wrapper {
+    position: absolute;
+    top: 87%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+    background: White;
+}
+
+.content {
+    padding: 1em;
+}
+
+.l-box {
+    padding: 1em;
+}
+
+.footer {
+    height: 50%;
+    background: DarkSlateBlue;
+    color: White;
+    padding: 1em;
+    text-align: center;
+}
+
