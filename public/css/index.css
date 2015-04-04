@@ -28,6 +28,9 @@ a {
 .pure-menu.pure-menu-horizontal, .pure-menu.pure-menu-horizontal .pure-menu-heading {
     color: White;
     font-size: 110%;
+    padding: .1em 1.5em;
+    letter-spacing: .1em;
+    font-weight: 100;
 }
 
 .splash {
@@ -109,7 +112,7 @@ a.pure-button-primary {
 
 .content-head {
     color: DarkSlateGray;
-    font-weight: 400;
+    font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin: 2em 0 1em;
@@ -130,14 +133,18 @@ a.pure-button-primary {
 
 .ribbon h2 {
     color: White;
+    padding: .1em 1em;
+    letter-spacing: .1em;
+    font-weight: 100;
 }
 
 .l-box {
     padding: 1em;
 }
 
-.l-box-lrg {
-    padding: 2em;
+.pure-img {
+  height: 400px;
+  padding-left: 2em;
 }
 
 .footer {
