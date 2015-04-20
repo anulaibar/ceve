@@ -4,14 +4,6 @@ body {
     color: DimGray;
 }
 
-h1 {
-    font-size: 250%;
-    padding: 1em 1.6em;
-    font-weight: 100;
-    border-radius: 5px;
-    line-height: 1em;
-}
-
 h3 {
     color: HotPink;
 }
@@ -30,15 +22,19 @@ a {
     z-index: 4;
     background: DarkSlateGray;
     border-bottom: none;
+    text-align: center;
 }
 
 .pure-menu.pure-menu-horizontal, .pure-menu.pure-menu-horizontal .pure-menu-heading {
     color: White;
-    font-size: 120%;
+    font-size: 110%;
+    padding: .1em 1.5em;
+    letter-spacing: .1em;
+    font-weight: 100;
 }
 
 .splash {
-    width: 60%;
+    width: 80%;
     height: 50%;
     margin: auto;
     position: absolute;
@@ -65,15 +61,33 @@ a {
 .splash-head {
     border: 3px solid White;
     padding: 1em 1.6em;
+    font-size: 20px;
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
+}
+
+@media (min-width: 48em) {
+  .pure-menu.pure-menu-open.pure-menu-fixed {
+    text-align: left;
+  }
+  .splash {
+    width: 50%;
+    height: 50%;
+  }
+  .splash-head {
+    font-size: 200%;
+  }
+  .pure-img {
+    height: 500px;
+  }
 }
 
 .splash-subhead {
     color: White;
     letter-spacing: 0.05em;
     opacity: 0.8;
+    font-size: 13px;
 }
 
 .pure-button {
@@ -84,7 +98,6 @@ a.pure-button-primary {
     background: White;
     color: HotPink;
     border-radius: 5px;
-    font-size: 120%;
 }
 
 .content-wrapper {
@@ -102,7 +115,7 @@ a.pure-button-primary {
 
 .content-head {
     color: DarkSlateGray;
-    font-weight: 400;
+    font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin: 2em 0 1em;
@@ -123,14 +136,13 @@ a.pure-button-primary {
 
 .ribbon h2 {
     color: White;
+    padding: .1em 1em;
+    letter-spacing: .1em;
+    font-weight: 100;
 }
 
 .l-box {
     padding: 1em;
-}
-
-.l-box-lrg {
-    padding: 2em;
 }
 
 .footer {
@@ -139,5 +151,10 @@ a.pure-button-primary {
     color: White;
     padding: 1em;
     text-align: center;
+    font-size: 1.17em;
 }
 
+.footer a {
+  color: White;
+  padding: 6px;
+}
